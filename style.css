@@ -97,12 +97,19 @@ body {
 }
 .gallery {
   display: flex;
-  flex-direction: row;
-  border-color: black;
+  flex-direction: column;
+  border-color: 3px solid black;
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  gap: 10px;
+  font-size: x-large;
+  
+  
   
 }
 
-.gallery-image {
+/* .gallery-image {
   width: 35.4px;
   height: 31.93px;
   margin-bottom: 10px;
@@ -110,7 +117,7 @@ body {
   transform: translateY(-400px);
   border: 3px solid black;
  
-}
+} */
 
 .rectangle {
   display: flex;
